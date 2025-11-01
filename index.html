@@ -1,0 +1,140 @@
+    <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hosteller — Choose Your Stay</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Hosteller</a>
+      <nav class="main-nav">
+        <a href="#rooms">Rooms & Rates</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1>Your Adventure Starts Here</h1>
+        <p class="lead">Experience comfort, community, and unforgettable memories at our modern hostel</p>
+        <a class="btn primary" href="explore.html">Explore Location</a>
+      </div>
+      <img class="hero-image" src="main1.jpg" alt="hostel lounge">
+    </section>
+
+    <!-- ROOMS -->
+    <section id="rooms" class="rooms container">
+      <h2 class="section-title">Choose Your Stay</h2>
+      <p class="section-sub">From shared dorms to private rooms, we have the perfect space for every traveler</p>
+
+      <div class="cards">
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1200&auto=format&fit=crop" alt="shared dorm">
+          <div class="card-body">
+            <div class="card-row">
+              <h3 class="card-title">Shared Dormitory</h3>
+              <div class="price">$25 <span class="per">/ night</span></div>
+            </div>
+            <p class="muted">Perfect for solo travelers and budget-conscious adventurers</p>
+            <ul class="features">
+              <li>4-8 beds</li>
+              <li>Lockers</li>
+              <li>Shared bathroom</li>
+              <li>Reading lights</li>
+            </ul>
+            <div class="card-cta">
+              <button class="btn" onclick="checkAvail('Shared Dormitory')">Check Availability</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1505692794403-49a7f3b3f1a6?q=80&w=1200&auto=format&fit=crop" alt="private room">
+          <div class="card-body">
+            <div class="card-row">
+              <h3 class="card-title">Private Room</h3>
+              <div class="price">$65 <span class="per">/ night</span></div>
+            </div>
+            <p class="muted">Enjoy your own space with modern amenities</p>
+            <ul class="features">
+              <li>Double bed</li>
+              <li>City view</li>
+              <li>Private bathroom</li>
+              <li>Work desk</li>
+            </ul>
+            <div class="card-cta">
+              <button class="btn" onclick="checkAvail('Private Room')">Check Availability</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="cards">
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1200&auto=format&fit=crop" alt="shared dorm">
+          <div class="card-body">
+            <div class="card-row">
+              <h3 class="card-title">Shared Dormitory</h3>
+              <div class="price">$25 <span class="per">/ night</span></div>
+            </div>
+            <p class="muted">Perfect for solo travelers and budget-conscious adventurers</p>
+            <ul class="features">
+              <li>4-8 beds</li>
+              <li>Lockers</li>
+              <li>Shared bathroom</li>
+              <li>Reading lights</li>
+            </ul>
+            <div class="card-cta">
+              <button class="btn" onclick="checkAvail('Shared Dormitory')">Check Availability</button>
+            </div>
+          </div>
+        </article>
+        
+      </div>
+
+    
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h4>Hosteller</h4>
+          <p class="muted">Your home away from home. Creating unforgettable experiences for travelers worldwide.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#rooms">Rooms & Rates</a></li>
+            <li><a href="#facilities">Facilities</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact Us</h4>
+          <p class="muted">123 Travel Street, City<br/>+1 (555) 123-4567<br/>hello@hostel.com</p>
+        </div>
+        <div>
+          <h4>Follow Us</h4>
+          <div class="social">
+            <a class="social-btn" href="#">f</a>
+            <a class="social-btn" href="#">ig</a>
+            <a class="social-btn" href="#">t</a>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright">© 2025 Hosteller. All rights reserved.</div>
+    </footer>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
